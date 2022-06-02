@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ListaCursos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cursos"  maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="alumnos" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="DNI"/>
+                                        <xs:element name="nombreEstudiante"/>
+                                        <xs:element name="primerApellidoEstudiante"/>
+                                        <xs:element name="segundoApellidoEstudiante"/>
+                                        <xs:element name="listaAsignaturas">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="asignatura">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="profesor">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="NRP"/>
+                                                                            <xs:element name="nombreProfesor"/>
+                                                                            <xs:element name="primerApellidoProfesor"/>
+                                                                            <xs:element name="segundoApellidoProfesor"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="codigo" type="xs:string"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
