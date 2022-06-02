@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ListaCursos SYSTEM "ListaCursos.dtd">
+
+<ListaCursos>
+    <cursos>
+        <alumnos>
+            <DNI></DNI>
+            <nombreEstudiante></nombreEstudiante>
+            <primerApellidoEstudiante></primerApellidoEstudiante>
+            <segundoApellidoEstudiante></segundoApellidoEstudiante>
+            <listaAsignaturas>
+                <asignatura codigo="">
+                    <nombreAsignatura></nombreAsignatura>
+                    <profesor>
+                        <NRP></NRP>
+                        <nombreProfesor></nombreProfesor>
+                        <primerApellidoProfesor></primerApellidoProfesor>
+                        <segundoApellidoProfesor></segundoApellidoProfesor>
+                    </profesor>
+                </asignatura>
+            </listaAsignaturas>
+        </alumnos>
+    </cursos>
+</ListaCursos>

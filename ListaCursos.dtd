@@ -1,0 +1,16 @@
+<!ELEMENT ListaCursos (cursos)+>
+        <!ELEMENT cursos (alumnos)+>
+        <!ELEMENT alumnos (DNI,nombreEstudiante,primerApellidoEstudiante, segundoApellidoEstudiante?, listaAsignaturas)>
+        <!ELEMENT DNI (#PCDATA)>
+        <!ELEMENT nombreEstudiante (#PCDATA)>
+        <!ELEMENT primerApellidoEstudiante (#PCDATA)>
+        <!ELEMENT segundoApellidoEstudiante (#PCDATA)>
+        <!ELEMENT listaAsignaturas (asignatura)+>
+        <!ELEMENT asignatura (nombreAsignatura, profesor)>
+        <!ELEMENT nombreAsignatura (#PCDATA)>
+        <!ELEMENT profesor (NRP, nombreProfesor, primerApellidoProfesor, segundoApellidoProfesor?)>
+        <!ELEMENT NRP (#PCDATA)>
+        <!ELEMENT nombreProfesor (#PCDATA)>
+        <!ELEMENT primerApellidoProfesor (#PCDATA)>
+        <!ELEMENT segundoApellidoProfesor (#PCDATA)>
+        <!ATTLIST asignatura codigo CDATA #REQUIRED>
