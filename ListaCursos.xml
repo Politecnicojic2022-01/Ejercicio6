@@ -4,17 +4,17 @@
 <ListaCursos>
     <cursos>
         <alumnos>
-            <DNI></DNI>
-            <nombreEstudiante></nombreEstudiante>
-            <primerApellidoEstudiante></primerApellidoEstudiante>
+            <DNI>1040</DNI>
+            <nombreEstudiante>Jesus</nombreEstudiante>
+            <primerApellidoEstudiante>Correa</primerApellidoEstudiante>
             <segundoApellidoEstudiante></segundoApellidoEstudiante>
             <listaAsignaturas>
-                <asignatura codigo="">
-                    <nombreAsignatura></nombreAsignatura>
+                <asignatura codigo="2356">
+                    <nombreAsignatura>Matematicas</nombreAsignatura>
                     <profesor>
-                        <NRP></NRP>
-                        <nombreProfesor></nombreProfesor>
-                        <primerApellidoProfesor></primerApellidoProfesor>
+                        <NRP>369</NRP>
+                        <nombreProfesor>Eduardo</nombreProfesor>
+                        <primerApellidoProfesor>Florez</primerApellidoProfesor>
                         <segundoApellidoProfesor></segundoApellidoProfesor>
                     </profesor>
                 </asignatura>
